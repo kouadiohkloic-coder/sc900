@@ -47,6 +47,9 @@ button:focus-visible { outline: 2px solid #a78bfa; outline-offset: 3px; }
 .nav-pill { display: flex; align-items: center; gap: .45rem; border-radius: .75rem; padding: .55rem .75rem; color: rgba(255,255,255,.4); font-size: .75rem; font-weight: 700; transition: all .18s cubic-bezier(.23,1,.32,1); }
 .nav-pill:hover { color: rgba(255,255,255,.85); background: rgba(255,255,255,.05); }
 .nav-pill-active { color: #fff; background: linear-gradient(135deg, rgba(139,92,246,.28), rgba(34,211,238,.12)); box-shadow: inset 0 0 0 1px rgba(196,181,253,.15); }
+.chapter-pill { border-radius: .75rem; padding: .55rem .75rem; color: rgba(255,255,255,.4); font-size: .7rem; font-weight: 800; transition: all .18s cubic-bezier(.23,1,.32,1); }
+.chapter-pill:hover { color: rgba(255,255,255,.85); background: rgba(255,255,255,.05); }
+.chapter-pill-active { color: #fff; background: linear-gradient(135deg, rgba(139,92,246,.28), rgba(34,211,238,.12)); box-shadow: inset 0 0 0 1px rgba(196,181,253,.15); }
 .primary-button, .secondary-button, .ghost-button, .icon-button { display: inline-flex; align-items: center; justify-content: center; gap: .5rem; border-radius: .85rem; font-size: .8rem; font-weight: 800; transition: transform .16s cubic-bezier(.23,1,.32,1), background .18s ease, border-color .18s ease, color .18s ease, box-shadow .18s ease; }
 .primary-button { border: 1px solid rgba(196,181,253,.28); background: linear-gradient(115deg, #8b5cf6, #4f8ffb 65%, #22d3ee); padding: .8rem 1rem; color: #0b0d19; box-shadow: 0 10px 28px rgba(88,60,190,.22); }
 .primary-button:hover { transform: translateY(-2px); box-shadow: 0 14px 34px rgba(88,60,190,.35); }

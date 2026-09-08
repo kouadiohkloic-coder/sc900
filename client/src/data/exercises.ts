@@ -1,8 +1,9 @@
 export type ExerciseType = "choice" | "truefalse" | "open" | "case";
+export type ExerciseCategory = "Responsabilité partagée" | "Défense en profondeur" | "Confiance Zéro" | "Chiffrement & hachage" | "GRC & données" | "Authentification & autorisation" | "Identité comme périmètre" | "Fournisseur d’identité" | "Annuaire & Entra ID" | "Fédération & SSO";
 
 export type Exercise = {
   id: number;
-  category: "Responsabilité partagée" | "Défense en profondeur" | "Confiance Zéro" | "Chiffrement & hachage" | "GRC & données";
+  category: ExerciseCategory;
   categoryShort: string;
   difficulty: "Fondation" | "Réflexe" | "Scénario";
   type: ExerciseType;
